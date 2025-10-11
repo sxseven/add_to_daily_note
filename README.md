@@ -12,6 +12,7 @@ add_to_daily_note.ps1，经典powershell写法
 ## 前置软件配置
 需要在[ahk官网](https://www.autohotkey.com)下载v2版本并安装，安装到任意位置均可
 ## 参数调整
+建议直接用记事本打开修改
 ### 必须调整的参数
 ahk文件中
 ```
