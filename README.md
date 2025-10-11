@@ -7,16 +7,10 @@ ps：
 ## 文件
 ```
 add_to_daily_note.ahk，其中ahk文件采用的语法是v2版本，与v1不兼容
-add_to_daily_note.ps1，PowerShell 脚本
+add_to_daily_note.ps1，经典powershell写法
 ```
 ## 前置软件配置
 需要在[ahk官网](https://www.autohotkey.com)下载v2版本并安装，安装到任意位置均可
-## 开机自启流程
-1. 按 `Win + R` 打开运行对话框
-2. 输入以下命令之一：
-    - 当前用户启动：`shell:startup`
-    - 所有用户启动：`shell:common startup`
-3.  将add_to_daily_note.ahk的快捷方式拖动到出现的文件夹里
 ## 参数调整
 ### 必须调整的参数
 ahk文件中
@@ -42,3 +36,9 @@ FileName：文件命名方式，默认采用yyyy-M-d
 
 Line：对输入内容的处理，目前是时间戳（HH:mm:ss）+内容
 ```
+## 开机自启流程
+1. 按 `Win + R` 打开运行对话框
+2. 输入以下命令之一：
+    - 当前用户启动：`shell:startup`
+    - 所有用户启动：`shell:common startup`
+3.  将add_to_daily_note.ahk的快捷方式拖动到出现的文件夹里
