@@ -10,7 +10,7 @@ add_to_daily_note.ahk，其中ahk文件采用的语法是v2版本，与v1不兼�
 add_to_daily_note.ps1，PowerShell 脚本
 ```
 ## 前置软件配置
-需要在[https://www.autohotkey.com/](ahk官网)下载v2版本并安装，安装到任意位置均可
+需要在[https://www.autohotkey.com](ahk官网)下载v2版本并安装，安装到任意位置均可
 ## 开机自启流程
 1. 按 `Win + R` 打开运行对话框
 2. 输入以下命令之一：
