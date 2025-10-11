@@ -19,11 +19,11 @@ add_to_daily_note.ps1，经典powershell写法
 ### 必须调整的参数
 ahk文件中
 ```
-psScript：ps1文件存放路径，使用绝对地址
+psScript：ps1文件存放路径，使用绝对地址，例如（D:\add_to_daily_note.ahk)
 ```
 ps1文件中
 ```
-VaultPath：md文件存放地址，使用绝对地址
+VaultPath：md文件存放地址，使用绝对地址,例如（D:\note)
 ```
 ### 可以调整的参数
 ahk文件中
