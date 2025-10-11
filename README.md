@@ -48,3 +48,22 @@ Line：对输入内容的处理，目前是时间戳（HH:mm:ss）+内容
 3.  将add_to_daily_note.ahk的快捷方式拖动到出现的文件夹里
 
 **如果只是想单次运行中使用，可以自己双击ahk文件运行**
+
+# 调试设置
+如果发现写入失败，可以做如下操作
+1.修改ahk文件的cmd
+```
+原
+cmd := Format('powershell.exe -ExecutionPolicy Bypass -File "{1}" "{2}"', psScript, safeInput)
+改为
+cmd := Format('cmd /k powershell.exe -ExecutionPolicy Bypass -File "{1}" "{2}"', psScript, safeInput)
+```
+2.修改ahk文件的run
+```
+原
+Run(cmd, , "Hide")
+改为
+Run(cmd)
+```
+
+执行以上两步后再运行，powershell脚本会显示运行，可以查看报错
