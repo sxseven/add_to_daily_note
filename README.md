@@ -5,8 +5,10 @@ ps：
 我这里使用的是日期（yyyy-M-d）命名的文件
 ## 使用说明
 ### 文件
+```
 add_to_daily_note.ahk，其中ahk文件采用的语法是v2版本，与v1不兼容
 add_to_daily_note.ps1，经典powershell写法
+```
 ### 前置软件配置
 需要在[https://www.autohotkey.com/](ahk官网)下载v2版本并安装，安装到任意位置均可
 ### 开机自启流程
